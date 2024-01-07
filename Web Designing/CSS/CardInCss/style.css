@@ -6,6 +6,30 @@
   font-family: 'Montserrat',sans-serif;
 }
 
+.navbar{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .cards{
   max-width: 1100px;
   margin: 0 auto;
