@@ -3,15 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   list-style-type: none;
 }
+
+/* first Container */
 
 .firstContainer {
   width: 100%;
   height: 750px;
   background-image: url(images/hero_apple_vision_pro_avail__ecthwv10twsy_largetall.jpg);
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -50,5 +53,90 @@
   justify-content: flex-end;
   flex-direction: column;
   align-items: center;
+  color: rgb(0, 0, 0, 0.8);
+  margin-top: 500px;
+}
+
+.content > h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.content h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.content .links {
+  display: flex;
+  font-size: 22px;
+  gap: 30px;
+  margin: 10px;
+}
+
+/* second Container */
+
+.secondContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 750px;
+  background-image: url(images/hero_startframe__dbi4flqyio2u_largetall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
   color: white;
+}
+
+.secondContainer .content1 button {
+  background-color: white;
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.secondContainer .content1 h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* thirdContainer */
+
+.thirdContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 750px;
+  background-image: url(images/valentine.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.content3 > h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.content3 h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.content3 a {
+  font-size: 22px;
+  gap: 30px;
 }
